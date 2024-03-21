@@ -16,6 +16,19 @@ body {
   place-items: center;
   gap: 1rem;
 }
+header {
+  position: fixed;
+  top: 0;
+  height: 7vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid black;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  color: rgb(170, 119, 23);
+}
 
 form {
   height: 50vh;
@@ -27,6 +40,7 @@ form {
   outline: 1px solid black;
   border-radius: 5px;
   box-shadow: 0 0 5px black;
+  margin-top: 3rem;
 }
 
 label,
@@ -83,7 +97,7 @@ input:focus {
   width: 100%;
   padding-left: 1rem;
   min-height: 5vh;
-  font-size: 1.4rem;
+  font-size: 1rem;
   display: flex;
   align-items: center;
   font-family: "Courier New", Courier, monospace;
@@ -96,6 +110,12 @@ input:focus {
   font-size: larger;
 }
 
-.d-None {
-  /* display: none; */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 7vh;
+  text-align: center;
+  border-top: 1px solid black;
+  color: rgb(170, 119, 23);
 }
