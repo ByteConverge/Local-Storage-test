@@ -28,6 +28,7 @@ header {
   font-family: "Courier New", Courier, monospace;
   font-weight: bolder;
   color: rgb(170, 119, 23);
+  background-color: white;
 }
 
 form {
@@ -118,4 +119,5 @@ footer {
   text-align: center;
   border-top: 1px solid black;
   color: rgb(170, 119, 23);
+  background-color: white;
 }
